@@ -27,6 +27,3 @@ X = vectorizer.fit_transform(documents)
 print("Feature Names:", vectorizer.get_feature_names_out())
 print("Shape of the corpus array vector : ",X.toarray().shape)
 print("TF-IDF Representation:\n", X.toarray())
-
-
-
